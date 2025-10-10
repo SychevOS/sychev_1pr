@@ -58,11 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // const Text(
-            //   'СычевОС\nИКБО-06-22\n22И1807',
-            //    textAlign: TextAlign.center,
-            //    style: TextStyle(fontSize: 30, color: Colors.white, backgroundColor: Colors.black),
-            // ),
+            const Text(
+              'СычевОС\nИКБО-06-22\n22И1807',
+               textAlign: TextAlign.center,
+               style: TextStyle(fontSize: 30, color: Colors.purple, backgroundColor: Colors.yellow),
+            ),
             ElevatedButton(
               onPressed: null,
               child: const Text('БубликиПоАкции', style: TextStyle(color: Colors.white),),
