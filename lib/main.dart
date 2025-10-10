@@ -57,12 +57,24 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'СычевОС\nИКБО-06-22\n22И1807',
-               textAlign: TextAlign.center,
-               style: TextStyle(fontSize: 30, color: Colors.white, backgroundColor: Colors.black),
-            )
+          children: [
+            // const Text(
+            //   'СычевОС\nИКБО-06-22\n22И1807',
+            //    textAlign: TextAlign.center,
+            //    style: TextStyle(fontSize: 30, color: Colors.white, backgroundColor: Colors.black),
+            // ),
+            ElevatedButton(
+              onPressed: null,
+              child: const Text('БубликиПоАкции', style: TextStyle(color: Colors.white),),
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(Colors.black),
+                shape: MaterialStateProperty.all(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
