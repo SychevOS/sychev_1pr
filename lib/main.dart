@@ -60,7 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'СычевОС\nИКБО-06-22\n22И1807',
-               style: TextStyle(fontSize: 30),
+               textAlign: TextAlign.center,
+               style: TextStyle(fontSize: 30, color: Colors.white, backgroundColor: Colors.black),
             )
           ],
         ),
