@@ -70,14 +70,21 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 100,
               //height: 100,
             ),
-            ElevatedButton(
-              onPressed: null,
-              child: const Text('БубликиПоАкции', style: TextStyle(color: Colors.white),),
-              style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.black),
-                shape: MaterialStateProperty.all(
-                  RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50),
+            Container(
+              padding: const EdgeInsets.all(10.0),
+              decoration: BoxDecoration(
+                color: Colors.amberAccent,
+                borderRadius: BorderRadius.circular(45),
+              ),
+              child: ElevatedButton(
+                onPressed: null,
+                child: const Text('БубликиПоАкции', style: TextStyle(color: Colors.white),),
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.black),
+                  shape: MaterialStateProperty.all(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50),
+                    ),
                   ),
                 ),
               ),
