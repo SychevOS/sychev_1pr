@@ -63,6 +63,10 @@ class _MyHomePageState extends State<MyHomePage> {
                textAlign: TextAlign.center,
                style: TextStyle(fontSize: 30, color: Colors.purple, backgroundColor: Colors.yellow),
             ),
+            const SizedBox(
+              width: 100,
+              height: 100,
+            ),
             ElevatedButton(
               onPressed: null,
               child: const Text('БубликиПоАкции', style: TextStyle(color: Colors.white),),
